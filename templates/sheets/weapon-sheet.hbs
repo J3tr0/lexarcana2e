@@ -14,7 +14,7 @@
 				placeholder='{{localize "Name"}}'
 			/></h1>
 	</header>
-	<div>
+	<div class='sheet-content'>
 		<table>
 			<tr>
 				<th>{{localize 'lexarcana2e.weapon.damage'}}</th>
@@ -28,30 +28,30 @@
 				<td>
 					<input
 						type='text'
-						name='data.damage'
-						value='{{data.damage}}'
+						name='system.damage'
+						value='{{data.system.damage}}'
 						data-dtype='Number'
 					/>
 				</td>
 				<td>
 					<input
 						type='text'
-						name='data.encumbrance'
-						value='{{data.encumbrance}}'
+						name='system.encumbrance'
+						value='{{data.system.encumbrance}}'
 						data-dtype='Number'
 					/>
 				</td>
 				<td>
 					<input
 						type='text'
-						name='data.difficulty'
-						value='{{data.difficulty}}'
+						name='system.difficulty'
+						value='{{data.system.difficulty}}'
 						data-dtype='Number'
 					/>
 				</td>
 				<td>
-					<select name='data.range'>
-						{{#select data.range}}
+					<select name='system.range'>
+						{{#select data.system.range}}
 							{{#each config.range as |name type|}}
 								<option value='{{type}}'>{{localize
 										name.label
@@ -61,8 +61,8 @@
 					</select>
 				</td>
 				<td>
-					<select name='data.feature'>
-						{{#select data.feature}}
+					<select name='system.feature'>
+						{{#select data.system.feature}}
 							{{#each config.feature as |name type|}}
 								<option value='{{type}}'>{{localize
 										name.label
@@ -74,12 +74,11 @@
 				<td>
 					<input
 						type='checkbox'
-						name='data.expertus'
-						{{checked data.expertus}}
+						name='system.expertus'
+						{{checked data.system.expertus}}
 					/>
 				</td>
 			</tr>
 		</table>
-		<textarea name='data.description'>{{data.description}}</textarea>
 	</div>
 </form>
