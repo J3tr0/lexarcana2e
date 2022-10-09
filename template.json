@@ -1,0 +1,28 @@
+{
+	"Actor": {},
+	"Item": {
+		"types": ["weapon", "armor", "shield"],
+		"templates": {
+			"encumbrance": {
+				"encumbrance": 0,
+				"description": ""
+			}
+		},
+		"weapon": {
+			"templates": ["encumbrance"],
+			"damage": 0,
+			"difficulty": 0,
+			"range": "",
+			"feature": "",
+			"expertus": false
+		},
+		"armor": {
+			"templates": ["encumbrance"],
+			"protection": 0
+		},
+		"shield": {
+			"templates": ["encumbrance"],
+			"parry": 0
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"lexarcana2e": {
+		"weapon": {
+			"damage": "Danno",
+			"encumbrance": "Ingombro",
+			"difficulty": "Difficoltà",
+			"expertus": "Expertus",
+			"rangeName": "Gittata",
+			"featureName": "Caratteristiche",
+			"range": {
+				"none": "-",
+				"short": "Corta",
+				"medium": "Media",
+				"long": "Lunga"
+			},
+			"feature": {
+				"none": "-",
+				"slow": "Lenta",
+				"throwing": "Da lancio",
+				"twoHanded": "A due mani",
+				"versatile": "Versatile"
+			}
+		}
+	}
+}

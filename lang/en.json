@@ -1,0 +1,25 @@
+{
+	"lexarcana2e": {
+		"weapon": {
+			"damage": "Damage",
+			"encumbrance": "Encumbrance",
+			"difficulty": "Difficulty",
+			"expertus": "Expertus",
+			"rangeName": "Range",
+			"featureName": "Feature",
+			"range": {
+				"none": "-",
+				"short": "Short",
+				"medium": "Medium",
+				"long": "Long"
+			},
+			"feature": {
+				"none": "-",
+				"slow": "Slow",
+				"throwing": "Throwing",
+				"twoHanded": "Two-Handed",
+				"versatile": "Versatile"
+			}
+		}
+	}
+}
